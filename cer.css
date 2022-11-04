@@ -11,11 +11,9 @@ body{
     text-align: center;
     background-color: rgb(80, 204, 64);
     height: 300px;
-    /* Aquí puedes escribir tu comentario */
+   
 }
-#navbarnavbar-darkbg-primary{
-    height: auto;
-}
+
 #carrucel{
 
 
@@ -28,7 +26,8 @@ nav{
     margin: 0px auto;
     padding: 20px;
     text-align: center;
-    background-color: #110ed8;
+    
+    background-color: #007bff;
     height: 40px;
 }
 #contenido{
@@ -50,7 +49,7 @@ footer{
     height: 100px;
 }
 h1{
-    color: white;
+    color: rgb(108, 86, 86);
     font-size: 35px;
 }
 
