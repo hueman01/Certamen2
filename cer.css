@@ -10,7 +10,7 @@ body{
     margin-top: 50px;
     text-align: center;
     background-color: rgb(80, 204, 64);
-    height: 200px;
+    height: 300px;
     /* Aquí puedes escribir tu comentario */
 }
 #navbarnavbar-darkbg-primary{
@@ -28,7 +28,7 @@ nav{
     margin: 0px auto;
     padding: 20px;
     text-align: center;
-    background-color: #3dcacf;
+    background-color: #110ed8;
     height: 40px;
 }
 #contenido{
@@ -109,4 +109,10 @@ label{
     font-size: 1.1rem;
     border: solid 1px black;
     border-radius: 5px;
+}
+.contenedor{
+    width: 90%;
+    background-color:#ffffff;
+    border: 1px solid #292F80;
+    margin: 0 auto;
 }
