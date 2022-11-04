@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal{
+    border: 2px solid black;
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(80, 204, 64);
+    height: 200px;
+    /* Aquí puedes escribir tu comentario */
+}
+#navbarnavbar-darkbg-primary{
+    height: auto;
+}
+#carrucel{
+
+
+
+
+}
+nav{
+    border: 2px solid black;
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #3dcacf;
+    height: 40px;
+}
+#contenido{
+    border: 2px solid black;
+    width: 80%;
+    margin: 0px auto ;
+    padding: 20px;
+    text-align: center;
+    background-color: #a13737;
+    height: 800px;
+}
+footer{
+    border: 1px solid black;
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #292828;
+    height: 100px;
+}
+h1{
+    color: white;
+    font-size: 35px;
+}
+
+#menu-principal{
+    display: table;
+    margin: 0 auto;
+}
+.menu{
+    display: inline-block;
+    text-align: center;
+    width: 160px; 
+    border: 1px solid black; 
+    margin: 5px 10px 5px 10px;
+    padding: 5px;
+    font-size: 18px; 
+    background-color: #c0bb72;
+ }
+
+ a{
+    color:black;
+    text-decoration: none;
+}
+
+article{
+    border: 1px solid black;
+    width: 80%;
+    margin: 0px auto;
+    padding: 60px;
+    height: 60%;
+}
+
+.imgs{
+
+    width: 180px;
+   
+}
+.texto{
+    text-align: center;
+    display: table-cell;
+
+}
+.control{
+    width: 80%;
+    margin: 15px ;
+    display: flex;
+}
+
+label{
+    width: 100px;
+}
+
+.buttonform{
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    font-size: 1.1rem;
+    border: solid 1px black;
+    border-radius: 5px;
+}
