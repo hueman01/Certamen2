@@ -1,30 +1,46 @@
 body{
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
 
 #principal{
     border: 2px solid black;
     width: 80%;
     margin: 0px auto;
-    padding: 20px;
+    padding: 10px;
     margin-top: 50px;
     text-align: center;
-    background-color: rgb(80, 204, 64);
+    background-color: rgb(111, 175, 217);
     height: 300px;
    
 }
 
 #carrucel{
+    position: absolute;
 
-
+}
+#conteiner{
+    position: absolute;
+}
+.navbarnavbar-darkbg-primary{
+    border: 2px solid black;
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px;
+    text-align: center;
+    
+    background-color: #007bff;
+    height: 90px;
 
 
 }
 nav{
     border: 2px solid black;
     width: 80%;
-    margin: 0px auto;
-    padding: 20px;
+    margin: 0 auto;
+    padding: 10px;
     text-align: center;
     
     background-color: #007bff;
@@ -34,16 +50,17 @@ nav{
     border: 2px solid black;
     width: 80%;
     margin: 0px auto ;
-    padding: 20px;
+    padding: 80px;
     text-align: center;
-    background-color: #a13737;
+    background-color: #718ab6;
     height: 800px;
+    position: static;
 }
 footer{
-    border: 1px solid black;
+    border: 0px solid black;
     width: 80%;
     margin: 0px auto;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     background-color: #292828;
     height: 100px;
@@ -63,9 +80,9 @@ h1{
     width: 160px; 
     border: 1px solid black; 
     margin: 5px 10px 5px 10px;
-    padding: 5px;
+    padding: 1px;
     font-size: 18px; 
-    background-color: #c0bb72;
+    background-color: #e7a026;
  }
 
  a{
@@ -74,12 +91,13 @@ h1{
 }
 
 article{
-    border: 1px solid black;
+    border: 5px solid black;
     width: 80%;
     margin: 0px auto;
     padding: 60px;
-    height: 60%;
+    height: 28%;
 }
+
 
 .imgs{
 
@@ -110,8 +128,15 @@ label{
     border-radius: 5px;
 }
 .contenedor{
-    width: 90%;
-    background-color:#ffffff;
+    width: 80%;
+    background-color:#be6262;
     border: 1px solid #292F80;
     margin: 0 auto;
+    position: static;
+}
+.col{
+    width: 40%;
+    display: inline-block;
+    position: fixed;
+
 }
